@@ -14,4 +14,17 @@
   text-align: center;
 }
 
+.flex-container
+{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+  height: 300px;  
+}
+.item1{
+  order: 10; 
+}
+
+
+
 /* Add your code here */

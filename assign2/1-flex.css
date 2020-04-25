@@ -12,6 +12,17 @@
   background-color: purple;
   color: white;
   text-align: center;
+  
+  
+}
+
+.flex-container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  
 }
 
 /* Add your code here */
+/*space between next line*/

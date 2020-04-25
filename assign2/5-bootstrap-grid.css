@@ -1,8 +1,46 @@
+
+
 * {
   box-sizing: border-box;
-  font-size: 1.1em;
-  color: white;
+  font-size: 1.1em;  
+  border: 0.5px solid white;
 }
+
+.container{
+  color:white;  
+}
+
+.row1{
+background-color: navy;
+padding-bottom: 50px;
+}
+
+.row2{
+background-color: purple;
+padding-bottom: 50px;
+}
+
+.row3{
+background-color: palevioletred;
+padding-bottom: 50px;
+}
+
+.row41{
+background-color: teal;
+padding-bottom: 50px;
+}
+
+.row42{
+  background-color: coral;
+  padding-bottom: 50px;
+}
+.row5{
+  background-color:green;
+  padding-bottom: 50px;
+}
+
+
+
 /* 
   Colors used in this exercise: 
   background-color: navy;
