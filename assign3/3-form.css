@@ -1,1 +1,68 @@
-/* Add your styles here  */
+/* body{
+    background-color:rgb(53, 52, 52);
+} */
+h1{
+    text-align: center;
+}
+
+@media (min-width: 1024px){
+.container{
+    font-family: Helvetica, sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactform{
+    padding:20px;
+    background-color: white;
+}
+.border{
+    background-color: white;
+  }
+.btn{
+    width:49%;
+}
+}
+
+@media (min-width: 415px) and(max-width: 1023px){
+    .container{
+         font-family: Helvetica, sans-serif;
+        padding: 50px;
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .contactform{
+        padding:20px;
+        background-color: white;
+    }
+    .border{
+      background-color: white;
+    }
+    
+    .btn{
+        width:49%;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+         font-family: Helvetica, sans-serif;
+        padding: 50px;
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .contactform{
+        padding:20px;
+        background-color: white;
+    }
+    .border{
+      background-color: white;      
+    }
+    
+    .btn{
+        width:49%;
+    }
+}
