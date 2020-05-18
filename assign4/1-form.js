@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const port = 8080;
 
 var express = require('express'),
@@ -30,6 +29,4 @@ app.post('/submit',function(req,res){
 });
 
 app.listen(port);
-=======
-// Enter your code here
->>>>>>> fe6fbd922f5428859b5948754da19d71d0b93e8a
+
