@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+const port = 8080;
+
+var express = require('express'),
+    app = express();
+var bodyParser = require('body-parser');
+
+app.use(express.static(__dirname + '/public'));
+
+app.use(bodyParser.urlencoded({
+   extended: false
+}));
+
+app.use(bodyParser.json());
+
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
+
+app.post('/submit',function(req,res){
+    var name = req.body.name;
+    var email= req.body.email;
+    var comment = req.body.message;
+
+    res.write('Name:'+' '+name+'\n');
+    res.write('Email:'+' '+email+'\n');
+    res.write('Comment:'+' '+comment);
+    
+    res.send();
+});
+
+app.listen(port);
+=======
+// Enter your code here
+>>>>>>> fe6fbd922f5428859b5948754da19d71d0b93e8a
