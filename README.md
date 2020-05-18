@@ -17,3 +17,19 @@
 
 Check D2L or Drive for more details on each assignment
 
+Assignment 4: 
+
+For Excercise #1: Run following commands in terminal
+ npm install
+ npm install express
+ node 1-form.js
+ 
+ For Excercise #2: Run following commands in terminal
+ npm install express-session
+ npm install cookie-parser
+ node 2-sessions.js
+
+Tutorials
+Vue: https://0pdsl.csb.app/
+
+
